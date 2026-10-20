@@ -1,0 +1,15 @@
+TARJETA DIGITAL LAGNA · FRANCISCO JESÚS LAGUNA
+
+ACTUALIZACIÓN: GUARDAR CONTACTO EN IPHONE
+El botón abre un archivo .vcf independiente. Ya no utiliza una descarga generada dentro del enlace.
+
+PUBLICAR EN TU NETLIFY ACTUAL
+1. Descomprime este ZIP.
+2. En tu sitio existente de Netlify, realiza un nuevo despliegue manual de toda la carpeta LAGNA-tarjeta.
+3. Incluye index.html, Francisco-Jesus-Laguna-LAGNA.vcf y _headers. No subas únicamente el HTML.
+4. Abre la web en Safari en tu iPhone y toca Guardar contacto. Comprueba que se abra la ficha para añadirla a Contactos.
+
+Conserva tu sitio actual para mantener la dirección de la tarjeta NFC.
+No hace falta instalar ni compilar nada. El logo va integrado en el HTML.
+Teléfono de empresa: +34 676 469 000
+El flujo de importación puede variar según el navegador y la versión de iOS.

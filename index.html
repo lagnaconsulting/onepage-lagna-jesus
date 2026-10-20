@@ -50,7 +50,7 @@
 <h2 id="contact-title">Hablemos de tu<br>próximo proyecto.</h2>
 <p class="description">Diseño, estrategia y marketing digital<br>para impulsar tu negocio.</p>
 <div class="actions">
-<a class="action save" id="save-contact" download="Francisco-Jesus-Laguna-LAGNA.vcf" href="Francisco-Jesus-Laguna-LAGNA.vcf"><svg aria-hidden="true"><use href="#i-download"/></svg>Guardar contacto<svg class="arrow" aria-hidden="true"><use href="#i-plus"/></svg></a>
+<a class="action save" id="save-contact" href="Francisco-Jesus-Laguna-LAGNA.vcf"><svg aria-hidden="true"><use href="#i-download"/></svg>Guardar contacto<svg class="arrow" aria-hidden="true"><use href="#i-plus"/></svg></a>
 <a class="action whatsapp" href="https://wa.me/34676469000" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true"><use href="#i-whatsapp"/></svg>Hablemos por WhatsApp<svg class="arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
 </div>
 <div class="quick-links">
@@ -67,9 +67,6 @@
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script>
 (()=>{'use strict';
-const vcard=['BEGIN:VCARD','VERSION:3.0','N:Laguna;Francisco Jesús;;;','FN:Francisco Jesús Laguna','ORG:LAGNA Consulting','TITLE:Cofundador y Director creativo','TEL;TYPE=WORK,VOICE:+34676469000','URL:https://lagnaconsulting.com/','NOTE:WhatsApp: https://wa.me/34676469000','END:VCARD',''].join('\r\n');
-// A data URL keeps the contact available even when this HTML is used on its own.
-document.getElementById('save-contact').href='data:text/vcard;charset=utf-8,'+encodeURIComponent(vcard);
 const cardUrl=location.protocol==='file:'?'https://lagnaconsulting-jesus-laguna.netlify.app/':location.href.split('#')[0];
 const shareButton=document.getElementById('share-button'),dialog=document.getElementById('share-dialog'),urlField=document.getElementById('share-url'),status=document.getElementById('copy-status');
 urlField.value=cardUrl;
